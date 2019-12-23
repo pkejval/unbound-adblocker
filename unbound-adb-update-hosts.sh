@@ -62,5 +62,5 @@ echo $oldlines
 echo "Blacklist entries now:"
 echo $newlines
 
-echo "Done."
-echo "Please Restart the DNS Resolver service from the WebUI."
+echo "Done. Restarting DNS Resolver."
+pluginctl dns restart
